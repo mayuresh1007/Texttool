@@ -48,10 +48,6 @@ export default function Utility(props) {
 
     }
 
-
-
-
-
     //  On changing the value of text this fun need to handle the event
     const handleOnChange = (event) => {
         // console.log("onchange was running");

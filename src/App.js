@@ -42,11 +42,11 @@ function App() {
       {/* <Navbar title= 1007 (proptype explains)  Featur="Features of Notes"/> */}
       {/* <Navbar (this is testing of default props )/> */}
       <Router>
-        <Navbar title="Text-Tool"  mode={mode} toggleMode={toggleMode} />
+        <Navbar title="Text-Tool" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Switch>
           <Route exact path="/about" >
-            <About heading="About the Text-Tool" mode={mode}  /> 
+            <About heading="About the Text-Tool" mode={mode} />
           </Route>
           <Route exact path="/">
             <Utility showAlert={showAlert} heading="Text Utilities" mode={mode} />
