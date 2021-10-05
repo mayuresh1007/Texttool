@@ -29,6 +29,7 @@ export default function Utility(props) {
         let firstchar = text.charAt(0); // storing the first char of the string
         let newText = firstchar.toUpperCase(); // converting that to uppercase
         setText(newText + text.slice(1)); // printing it with rest excluding the first char by using slice
+        props.showAlert("capitalize first letter of text", "success");
 
     }
     // this function copy the text 
