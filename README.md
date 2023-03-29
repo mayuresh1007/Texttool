@@ -1,6 +1,5 @@
-# Getting Started with Create React App
 ## Please use this app using node version 10.
-# 
+# if not working add.env file and in that define SKIP_PREFLIGHT_CHECK=true
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
